@@ -1,0 +1,26 @@
+/* lists */
+li span {
+    transition: .1s all ease-in;
+}
+
+li span.active {
+    font-weight: bold;
+}
+
+li span.active::before {
+    content: '●';
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+    transform: scale(0.8, 1);
+    display: inline-block;
+}
+
+.rat-btn {
+    transition: .3s all ease-in-out;
+}
+
+.rat-btn:hover {
+    color: rgb(0, 110, 174);
+    background: var(--primary-btn);
+}

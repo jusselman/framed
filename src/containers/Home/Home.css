@@ -1,0 +1,27 @@
+/* pages */
+.home h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.home.container,
+.order.container {
+    text-align: center;
+    max-width: 800px;
+    /* background-image: url('https://i.imgur.com/DC8457s.jpg');z-index: 999; */
+}
+
+.home .btn-rat {
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.6em;
+    border: 3px solid white;
+    margin: 30px 20px;
+    transition: .3s all ease-in-out;
+}
+
+.home .btn-rat:hover {
+    color: rgb(0, 110, 174);
+    background: white;
+    border: 3px solid transparent;
+}
